@@ -15,7 +15,13 @@ body {
     background-color: #2E4347;
     color: #fff;
     height: 100%;
-    font-size: 14px;
+    font-size: 12px;
+}
+@media (min-width: 576px) {
+    html,
+    body {
+        font-size: 14px;
+    }
 }
 header {
     background: #2E4347 url("The_Braaid_2.jpg") center;
