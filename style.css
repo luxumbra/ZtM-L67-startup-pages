@@ -15,14 +15,9 @@ body {
     background-color: #2E4347;
     color: #fff;
     height: 100%;
-    font-size: 12px;
+    font-size: 11px;
 }
-@media (min-width: 576px) {
-    html,
-    body {
-        font-size: 14px;
-    }
-}
+
 header {
     background: #2E4347 url("The_Braaid_2.jpg") center;
     background-size: cover;
@@ -68,7 +63,7 @@ section {
 h1 {
     color: #fff;
     font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 100;
 }
 
@@ -83,13 +78,13 @@ h1 {
 
 blockquote {
     font-family: 'Dosis', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 200;
     text-align: justify-all;
-    margin: 50px auto;
+    margin: 2rem auto;
 }
 blockquote footer {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 a {
     color: #fff;
@@ -117,7 +112,7 @@ section {
 }
 h2 {
     font-family: 'Noto Serif KR', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 section p {
@@ -143,7 +138,7 @@ section p {
 
 header .btn-primary {
     font-family: 'Dosis', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 
@@ -159,4 +154,71 @@ header .btn-primary {
 .btn .oi {
     font-size: 1rem;
 }
+@media (min-width: 576px) {
 
+    hr {
+        margin: 2rem auto;
+    }
+    header hr {
+        margin: 2rem auto 0;
+    }
+
+}
+@media (min-width: 768px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        font-size: 3rem;
+        margin: 2rem auto;
+    }
+    blockquote footer {
+        font-size: 2rem;
+    }
+
+    header .btn-primary {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 3),
+(min-resolution: 280dpi){
+    /* Retina-specific stuff here */
+
+    h1 {
+        font-size: 3rem;
+    }
+    blockquote {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+    blockquote footer {
+        font-size: 1.5rem;
+    }
+
+    header .btn-primary {
+        font-size: 1.5rem;
+    }
+}
